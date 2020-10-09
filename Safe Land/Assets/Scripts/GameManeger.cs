@@ -11,6 +11,7 @@ public class GameManeger : MonoBehaviour
     public List<GameObject> undes = new List<GameObject>();
     public GameObject ball;
     private bool _isballNotNull;
+    
 
     void Awake()
     {
@@ -47,5 +48,10 @@ public class GameManeger : MonoBehaviour
     {
         var currentScene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentScene);
+    }
+
+    public void LoadNextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
