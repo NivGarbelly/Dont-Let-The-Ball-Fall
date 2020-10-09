@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 1252370453319023745}
   - component: {fileID: 1252370453319023750}
   - component: {fileID: 1252370453319023746}
-  - component: {fileID: 1252370453319023800}
+  - component: {fileID: 1705102696392639336}
   m_Layer: 0
-  m_Name: BoomBox
+  m_Name: DragBox
   m_TagString: Des
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 62dc597202b15214eab63dd985623090, type: 2}
+  - {fileID: 2100000, guid: d9757938221831d428ec0a81a675fb47, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -111,7 +111,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 40
   m_CollisionDetection: 0
---- !u!114 &1252370453319023800
+--- !u!114 &1705102696392639336
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,11 +120,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1252370453319023751}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f61e0c8e71d69842a57d3841a82881c, type: 3}
+  m_Script: {fileID: 11500000, guid: 7092b409e28c27a4198a437b6d34fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameManeger: {fileID: 0}
+  MouseXinput: Mouse X
+  MouseYinput: Mouse Y
+  MouseSensetivity: 10
   _rigidbody: {fileID: 1252370453319023746}
-  power: 250
-  radius: 2
-  VFX: {fileID: 1892078723244562, guid: 46876a2780737ec45a19d62f88e5ce56, type: 3}

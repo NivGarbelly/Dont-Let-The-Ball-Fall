@@ -16,10 +16,10 @@ public class Expolsion : MonoBehaviour
         Collider[] colliders = Physics.OverlapSphere(explosionPos, radius);
         foreach (Collider hit in colliders)
         {
-            Rigidbody rb = hit.GetComponent<Rigidbody>();
+            _rigidbody = hit.GetComponent<Rigidbody>();
 
-            if (rb != null)
-                rb.AddExplosionForce(power, explosionPos, radius, 3.0F);
+            if (_rigidbody != null)
+                _rigidbody.AddExplosionForce(power, explosionPos, radius, 3.0F);
         }
 
         Instantiate(VFX,transform.position,transform.rotation);
