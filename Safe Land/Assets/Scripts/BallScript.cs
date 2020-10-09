@@ -6,6 +6,9 @@ using UnityEngine;
 public class BallScript : MonoBehaviour
 {
     [SerializeField] private Rigidbody _rigidbody;
+    [SerializeField] private GameManeger GM;
+    [SerializeField] private GameObject Fireworks;
+    private bool isWinning = false;
 
     private void Update()
     {
@@ -18,8 +21,21 @@ public class BallScript : MonoBehaviour
         {
             if (_rigidbody.IsSleeping())
             {
-                
+                Invoke("Win", 2f);
+                if (isWinning == false)
+                {
+                    Instantiate(Fireworks);
+                    isWinning = true;
+                }
+
+              
             }
         }
     }
+
+    private void Win()
+    {
+        GM.LoadNextScene();
+    }
+   
 }
