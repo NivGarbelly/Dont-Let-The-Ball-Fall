@@ -26,9 +26,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManeger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Expolsion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Nails.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Destructable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DragBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Destructable.cs" />
       </list>
     </option>
   </component>
@@ -82,7 +82,8 @@
       <workItem from="1602007823184" duration="5166000" />
       <workItem from="1602015270371" duration="1223000" />
       <workItem from="1602185448086" duration="2000" />
-      <workItem from="1602268650208" duration="8489000" />
+      <workItem from="1602268650208" duration="9224000" />
+      <workItem from="1603368975256" duration="1284000" />
     </task>
     <servers />
   </component>
@@ -96,7 +97,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

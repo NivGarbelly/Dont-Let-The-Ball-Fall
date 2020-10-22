@@ -12,12 +12,5 @@ public class Destructable : MonoBehaviour
            _gameManeger.des.Remove(this.gameObject);
            Instantiate(VFX,transform.position,transform.rotation);
            Destroy(this.gameObject);
-       }
-
-       private void OnDestroy()
-       {
-           _gameManeger.des.Remove(this.gameObject);
-       }
-
-       
+       }     
 } 

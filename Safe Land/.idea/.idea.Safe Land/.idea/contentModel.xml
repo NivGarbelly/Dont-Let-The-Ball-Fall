@@ -41,7 +41,6 @@
         <e p="Scripts" t="Include">
           <e p="BallScript.cs" t="Include" />
           <e p="Destructable.cs" t="Include" />
-          <e p="DragAndDrop.cs" t="Include" />
           <e p="DragBox.cs" t="Include" />
           <e p="Expolsion.cs" t="Include" />
           <e p="GameManeger.cs" t="Include" />
