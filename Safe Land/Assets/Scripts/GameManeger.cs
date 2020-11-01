@@ -11,11 +11,13 @@ public class GameManeger : MonoBehaviour
     public List<GameObject> undes = new List<GameObject>();
     public GameObject ball;
     private bool _isballNotNull;
-    
+    public int CurrentScene;
 
     void Awake()
     {
+        CurrentScene = SceneManager.GetActiveScene().buildIndex;
         _isballNotNull = ball != null;
+        
         foreach (var desObj in GameObject.FindGameObjectsWithTag("Des"))
         {
             des.Add(desObj);
@@ -26,7 +28,11 @@ public class GameManeger : MonoBehaviour
             undes.Add(undesObj);
         }
     }
-    
+
+    private void Start()
+    {
+        SaveSystem.SaveGame(this);
+    }
     void Update()
     {
         if (des.Count == 0 && _isballNotNull)
@@ -37,6 +43,7 @@ public class GameManeger : MonoBehaviour
             }
             undes.Clear();
         }
+        print(CurrentScene);
     }
 
     private void OnCollisionEnter(Collision other)
@@ -54,4 +61,6 @@ public class GameManeger : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+
 }
