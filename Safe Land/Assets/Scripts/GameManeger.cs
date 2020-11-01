@@ -12,6 +12,7 @@ public class GameManeger : MonoBehaviour
     public GameObject ball;
     private bool _isballNotNull;
     public int CurrentScene;
+    public int highestLevel;
 
     void Awake()
     {
@@ -31,7 +32,7 @@ public class GameManeger : MonoBehaviour
 
     private void Start()
     {
-        SaveSystem.SaveGame(this);
+        
     }
     void Update()
     {
@@ -44,6 +45,10 @@ public class GameManeger : MonoBehaviour
             undes.Clear();
         }
         print(CurrentScene);
+        if (ball==null)
+        {
+            restartLevel();
+        }
     }
 
     private void OnCollisionEnter(Collision other)
@@ -59,7 +64,19 @@ public class GameManeger : MonoBehaviour
 
     public void LoadNextScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        GameData data = SaveSystem.LoadGame();
+        highestLevel = data.level;
+        if (CurrentScene>=highestLevel)
+        {
+            CurrentScene = SceneManager.GetActiveScene().buildIndex+1;
+            SaveSystem.SaveGame(this);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        
     }
 
 

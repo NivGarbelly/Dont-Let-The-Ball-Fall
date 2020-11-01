@@ -11,9 +11,7 @@ public class LoadLeve : MonoBehaviour
     }
     void Start()
     {
-        
-        
-            GameData data = SaveSystem.LoadGame();
+        GameData data = SaveSystem.LoadGame();
             CurrentScene = data.level;
         if (CurrentScene != 0)
         {
