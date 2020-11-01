@@ -10,6 +10,7 @@ public class Expolsion : MonoBehaviour
     [SerializeField] private float power;
     [SerializeField] private float radius;
     [SerializeField] private GameObject VFX;
+    [SerializeField] private GameObject SFX;
     private void OnMouseDown()
     {
         Vector3 explosionPos = transform.position;
@@ -23,6 +24,7 @@ public class Expolsion : MonoBehaviour
         }
 
         Instantiate(VFX,transform.position,transform.rotation);
+        Instantiate(SFX,transform.position,transform.rotation);
         _gameManeger.des.Remove(this.gameObject);
        Destroy(this.gameObject);
     }

@@ -8,6 +8,7 @@ public class BallScript : MonoBehaviour
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private GameManeger GM;
     [SerializeField] private GameObject Fireworks;
+    [SerializeField] private GameObject FireworksSound;
     private bool isWinning = false;
 
     private void Update()
@@ -25,6 +26,7 @@ public class BallScript : MonoBehaviour
                 if (isWinning == false)
                 {
                     Instantiate(Fireworks);
+                    Instantiate(FireworksSound);
                     isWinning = true;
                 }
 

@@ -7,10 +7,19 @@ public class Destructable : MonoBehaviour
 {
    [SerializeField] private GameManeger _gameManeger;
    [SerializeField] private GameObject VFX;
-       private void OnMouseDown()
+   [SerializeField] private GameObject SFX;
+   private void OnMouseDown()
        {
            _gameManeger.des.Remove(this.gameObject);
            Instantiate(VFX,transform.position,transform.rotation);
+           Instantiate(SFX,transform.position,transform.rotation);
            Destroy(this.gameObject);
-       }     
+       }
+
+   private void Awake()
+   {
+       var rigidbody = GetComponent<Rigidbody>();
+       rigidbody.mass = transform.localScale.x;
+
+   }
 } 

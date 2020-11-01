@@ -427,6 +427,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _gameManeger: {fileID: 0}
   VFX: {fileID: 100004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
+  SFX: {fileID: 2681366007303303838, guid: 346fb53e9cb0df848b9b10515dd50caa, type: 3}
 --- !u!54 &6910904475862264383
 Rigidbody:
   m_ObjectHideFlags: 0

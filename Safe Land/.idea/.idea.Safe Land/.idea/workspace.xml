@@ -22,13 +22,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Destructable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BallScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManeger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Expolsion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Nails.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DragBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/MusicOn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Expolsion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Destructable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BallScript.cs" />
       </list>
     </option>
   </component>
@@ -84,6 +85,9 @@
       <workItem from="1602185448086" duration="2000" />
       <workItem from="1602268650208" duration="9224000" />
       <workItem from="1603368975256" duration="1284000" />
+      <workItem from="1604219412836" duration="1808000" />
+      <workItem from="1604221889695" duration="368000" />
+      <workItem from="1604222551415" duration="972000" />
     </task>
     <servers />
   </component>
