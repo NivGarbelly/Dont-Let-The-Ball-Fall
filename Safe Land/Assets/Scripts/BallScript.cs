@@ -10,10 +10,36 @@ public class BallScript : MonoBehaviour
     [SerializeField] private GameObject Fireworks;
     [SerializeField] private GameObject FireworksSound;
     private bool isWinning = false;
+    [SerializeField] private ObjMat currentColor;
+ [SerializeField] private List<Material> _materials;
 
-    private void Update()
+    [SerializeField]
+        private enum ObjMat
+        {
+            Regular = 0,
+            Halloween = 1,
+            Other = 2
+        };
+
+        private void Awake()
+        {
+            
+        }
+
+        private void FixedUpdate()
     {
-        
+        switch (currentColor)
+        {
+            case ObjMat.Regular:
+                GetComponent<Renderer>().material = _materials[Mathf.FloorToInt(0)];
+                break;
+            case ObjMat.Halloween:
+                GetComponent<Renderer>().material = _materials[Mathf.FloorToInt(1)];
+                break;
+            case ObjMat.Other:
+                GetComponent<Renderer>().material = _materials[Mathf.FloorToInt(2)];
+                break;
+        }
     }
 
     private void OnTriggerStay(Collider other)

@@ -307,6 +307,7 @@ MonoBehaviour:
   undes: []
   ball: {fileID: 681817679}
   CurrentScene: 0
+  highestLevel: 0
 --- !u!4 &531213963
 Transform:
   m_ObjectHideFlags: 0
@@ -412,9 +413,34 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5703771992848937640, guid: aa3c035d319f237498f00e676e4769c4,
         type: 3}
+      propertyPath: _materials.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5703771992848937640, guid: aa3c035d319f237498f00e676e4769c4,
+        type: 3}
       propertyPath: GM
       value: 
       objectReference: {fileID: 531213962}
+    - target: {fileID: 5703771992848937640, guid: aa3c035d319f237498f00e676e4769c4,
+        type: 3}
+      propertyPath: _materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1cedbf5eb3f0d6346ae883e49a54c673, type: 2}
+    - target: {fileID: 5703771992848937640, guid: aa3c035d319f237498f00e676e4769c4,
+        type: 3}
+      propertyPath: _materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9d55a19fbc5acc041ae035947460f973, type: 2}
+    - target: {fileID: 5703771992848937640, guid: aa3c035d319f237498f00e676e4769c4,
+        type: 3}
+      propertyPath: currentColor
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5703771992848937640, guid: aa3c035d319f237498f00e676e4769c4,
+        type: 3}
+      propertyPath: _materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: bd2d742ee2ce7a740ae0cf992a38be74, type: 2}
     - target: {fileID: 5703771992848937643, guid: aa3c035d319f237498f00e676e4769c4,
         type: 3}
       propertyPath: m_LocalPosition.x
