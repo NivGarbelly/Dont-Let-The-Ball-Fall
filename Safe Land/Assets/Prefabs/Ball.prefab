@@ -103,7 +103,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5703771992848937654}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.5
   m_Drag: 0
   m_AngularDrag: 3
   m_UseGravity: 1
@@ -128,3 +128,5 @@ MonoBehaviour:
   Fireworks: {fileID: 1247311384876784, guid: 4adffb0018aeda44e9263f901167af1f, type: 3}
   FireworksSound: {fileID: 4427845222067866821, guid: 297ffddec86a20b41a74976ff4073c34,
     type: 3}
+  currentColor: 0
+  _materials: []
