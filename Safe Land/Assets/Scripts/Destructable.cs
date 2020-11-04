@@ -10,7 +10,6 @@ public class Destructable : MonoBehaviour
    [SerializeField] private GameObject SFX;
    private void OnMouseDown()
        {
-           _gameManeger.des.Remove(this.gameObject);
            Instantiate(VFX,transform.position,transform.rotation);
            Instantiate(SFX,transform.position,transform.rotation);
            Destroy(this.gameObject);
