@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadLeve.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelSelector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nails.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManeger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Destructable.cs" root0="FORCE_HIGHLIGHTING" />
@@ -31,11 +32,12 @@
         <option value="$PROJECT_DIR$/Assets/MusicOn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Expolsion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelSelector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LoadLeve.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManeger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BallScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OpenSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Destructable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LoadLeve.cs" />
       </list>
     </option>
   </component>
@@ -96,7 +98,8 @@
       <workItem from="1604222551415" duration="1574000" />
       <workItem from="1604263703318" duration="5320000" />
       <workItem from="1604300953885" duration="4519000" />
-      <workItem from="1604499063903" duration="2806000" />
+      <workItem from="1604499063903" duration="3446000" />
+      <workItem from="1604525039202" duration="928000" />
     </task>
     <servers />
   </component>

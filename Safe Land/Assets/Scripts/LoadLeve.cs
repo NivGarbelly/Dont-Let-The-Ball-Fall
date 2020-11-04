@@ -13,7 +13,8 @@ public class LoadLeve : MonoBehaviour
     {
         GameData data = SaveSystem.LoadGame();
             CurrentScene = data.level;
-        if (CurrentScene != 0)
+            
+            if (CurrentScene != 0)
         {
             SceneManager.LoadScene(CurrentScene);
         }
@@ -21,7 +22,14 @@ public class LoadLeve : MonoBehaviour
         {
             SceneManager.LoadScene(1);
         }
-
+             if (CurrentScene == null)
+            {
+                SceneManager.LoadScene(1);
+            }
+            else
+            {
+                SceneManager.LoadScene(CurrentScene);
+            }
     }
 
     private void Update()
