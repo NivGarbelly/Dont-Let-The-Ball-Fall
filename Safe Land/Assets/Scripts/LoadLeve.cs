@@ -21,8 +21,8 @@ public class LoadLeve : MonoBehaviour
         else
         {
             SceneManager.LoadScene(1);
-        }
-             if (CurrentScene == null)
+        } 
+            if (CurrentScene == null)
             {
                 SceneManager.LoadScene(1);
             }
