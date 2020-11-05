@@ -44,7 +44,6 @@ public class GameManeger : MonoBehaviour
             }
             undes.Clear();
         }
-        print(CurrentScene);
         if (ball==null)
         {
             restartLevel();

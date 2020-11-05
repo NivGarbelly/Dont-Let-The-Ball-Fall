@@ -15,6 +15,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OpenSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadLeve.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelSelector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nails.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManeger.cs" root0="FORCE_HIGHLIGHTING" />
@@ -32,10 +33,10 @@
         <option value="$PROJECT_DIR$/Assets/MusicOn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Expolsion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelSelector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManeger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BallScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OpenSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Destructable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManeger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadLeve.cs" />
       </list>
