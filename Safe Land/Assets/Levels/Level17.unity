@@ -205,7 +205,7 @@ PrefabInstance:
     - target: {fileID: 6910904475862264368, guid: 1af1095e7e41c644db49dc270f2c5743,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.53
+      value: 1.26
       objectReference: {fileID: 0}
     - target: {fileID: 6910904475862264368, guid: 1af1095e7e41c644db49dc270f2c5743,
         type: 3}
@@ -294,7 +294,7 @@ PrefabInstance:
     - target: {fileID: 6910904475862264368, guid: 1af1095e7e41c644db49dc270f2c5743,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.94
+      value: 4.09
       objectReference: {fileID: 0}
     - target: {fileID: 6910904475862264368, guid: 1af1095e7e41c644db49dc270f2c5743,
         type: 3}
@@ -645,7 +645,7 @@ PrefabInstance:
     - target: {fileID: 6910904475862264368, guid: 1af1095e7e41c644db49dc270f2c5743,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.73
+      value: 2.46
       objectReference: {fileID: 0}
     - target: {fileID: 6910904475862264368, guid: 1af1095e7e41c644db49dc270f2c5743,
         type: 3}
@@ -753,6 +753,7 @@ MonoBehaviour:
   undes: []
   ball: {fileID: 311262054}
   CurrentScene: 0
+  highestLevel: 0
 --- !u!4 &531213963
 Transform:
   m_ObjectHideFlags: 0

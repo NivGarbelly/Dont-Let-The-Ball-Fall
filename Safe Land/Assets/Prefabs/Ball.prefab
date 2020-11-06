@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1cedbf5eb3f0d6346ae883e49a54c673, type: 2}
+  - {fileID: 2100000, guid: 9d55a19fbc5acc041ae035947460f973, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -128,7 +128,7 @@ MonoBehaviour:
   Fireworks: {fileID: 1247311384876784, guid: 4adffb0018aeda44e9263f901167af1f, type: 3}
   FireworksSound: {fileID: 4427845222067866821, guid: 297ffddec86a20b41a74976ff4073c34,
     type: 3}
-  currentColor: 1
+  currentColor: 0
   _materials:
   - {fileID: 2100000, guid: 9d55a19fbc5acc041ae035947460f973, type: 2}
   - {fileID: 2100000, guid: 1cedbf5eb3f0d6346ae883e49a54c673, type: 2}
