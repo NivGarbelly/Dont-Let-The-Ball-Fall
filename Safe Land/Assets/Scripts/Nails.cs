@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class Nails : MonoBehaviour
@@ -7,6 +9,7 @@ public class Nails : MonoBehaviour
     public bool isNailed;
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private GameObject nails;
+    
     private void Awake()
     {
         if (isNailed==true)

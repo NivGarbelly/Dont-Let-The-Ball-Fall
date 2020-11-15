@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2057263456188731712}
   m_Layer: 0
   m_Name: Wooden barrel
-  m_TagString: Untagged
+  m_TagString: Des
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 7034450564074259241}
   m_Layer: 0
   m_Name: WoodenBarrel
-  m_TagString: Des
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

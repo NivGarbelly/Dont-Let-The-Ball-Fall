@@ -29,11 +29,7 @@ public class GameManeger : MonoBehaviour
             undes.Add(undesObj);
         }
     }
-
-    private void Start()
-    {
-        
-    }
+    
     void Update()
     {
         if (des.Count == 0 && _isballNotNull)

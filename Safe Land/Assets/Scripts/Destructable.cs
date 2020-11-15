@@ -12,6 +12,7 @@ public class Destructable : MonoBehaviour
        {
            Instantiate(VFX,transform.position,transform.rotation);
            Instantiate(SFX,transform.position,transform.rotation);
+           _gameManeger.des.Remove(this.gameObject);
            Destroy(this.gameObject);
        }
 
@@ -20,9 +21,5 @@ public class Destructable : MonoBehaviour
        var rigidbody = GetComponent<Rigidbody>();
        rigidbody.mass = transform.localScale.x;
    }
-
-   private void OnDestroy()
-   {
-       _gameManeger.des.Remove(this.gameObject);
-   }
+   
 } 

@@ -72,6 +72,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Metal Barrel
       objectReference: {fileID: 0}
+    - target: {fileID: 4360355819132804445, guid: e84b53040d129bb48babbe8e88fbb317,
+        type: 3}
+      propertyPath: m_TagString
+      value: Undes
+      objectReference: {fileID: 0}
     - target: {fileID: 5078816615120877539, guid: e84b53040d129bb48babbe8e88fbb317,
         type: 3}
       propertyPath: m_Mesh
@@ -96,7 +101,7 @@ PrefabInstance:
     - target: {fileID: 8835956866981749500, guid: e84b53040d129bb48babbe8e88fbb317,
         type: 3}
       propertyPath: m_TagString
-      value: Undes
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 8835956866981749500, guid: e84b53040d129bb48babbe8e88fbb317,
         type: 3}
