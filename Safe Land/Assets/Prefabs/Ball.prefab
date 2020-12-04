@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5703771992848937652}
   - component: {fileID: 5703771992848937655}
   - component: {fileID: 5703771992848937640}
+  - component: {fileID: 6258589791561532195}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Player
@@ -124,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody: {fileID: 5703771992848937655}
-  GM: {fileID: 0}
+  GM: {fileID: 6258589791561532195}
   Fireworks: {fileID: 1247311384876784, guid: 4adffb0018aeda44e9263f901167af1f, type: 3}
   FireworksSound: {fileID: 4427845222067866821, guid: 297ffddec86a20b41a74976ff4073c34,
     type: 3}
@@ -133,3 +134,17 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 9d55a19fbc5acc041ae035947460f973, type: 2}
   - {fileID: 2100000, guid: 9d55a19fbc5acc041ae035947460f973, type: 2}
   - {fileID: 2100000, guid: 0565ab861f3d07d4b935e426d7353e3b, type: 2}
+--- !u!114 &6258589791561532195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5703771992848937654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b23d07d788c8af4c96e87da237f6b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentScene: 0
+  highestLevel: 0

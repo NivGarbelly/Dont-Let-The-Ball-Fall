@@ -21,5 +21,9 @@ public class Destructable : MonoBehaviour
        var rigidbody = GetComponent<Rigidbody>();
        rigidbody.mass = transform.localScale.x;
    }
-   
+
+   private void OnDestroy()
+   {
+       _gameManeger.des.Remove(this.gameObject);
+   }
 } 

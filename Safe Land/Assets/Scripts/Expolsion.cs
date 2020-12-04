@@ -26,7 +26,7 @@ public class Expolsion : MonoBehaviour
         Instantiate(VFX,transform.position,transform.rotation);
         Instantiate(SFX,transform.position,transform.rotation);
         _gameManeger.des.Remove(this.gameObject);
-       Destroy(this.gameObject);
+        Destroy(this.gameObject);
     }
 
     private void OnDestroy()

@@ -18,6 +18,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nails.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/sceneManeger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManeger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Destructable.cs" root0="FORCE_HIGHLIGHTING" />
@@ -30,15 +31,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DragBox.cs" />
         <option value="$PROJECT_DIR$/Assets/MusicOn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Expolsion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelSelector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BallScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OpenSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LoadLeve.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManeger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Destructable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Nails.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Expolsion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManeger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManeger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BallScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Destructable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LoadLeve.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelSelector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/sceneManeger.cs" />
       </list>
     </option>
   </component>
@@ -103,6 +107,8 @@
       <workItem from="1604525039202" duration="1248000" />
       <workItem from="1605434211674" duration="2782000" />
       <workItem from="1605442677277" duration="599000" />
+      <workItem from="1605782035147" duration="384000" />
+      <workItem from="1606141000109" duration="10355000" />
     </task>
     <servers />
   </component>

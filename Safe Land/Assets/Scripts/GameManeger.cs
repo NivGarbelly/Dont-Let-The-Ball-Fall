@@ -11,12 +11,11 @@ public class GameManeger : MonoBehaviour
     public List<GameObject> undes = new List<GameObject>();
     public GameObject ball;
     private bool _isballNotNull;
-    public int CurrentScene;
-    public int highestLevel;
+    
 
     void Awake()
     {
-        CurrentScene = SceneManager.GetActiveScene().buildIndex;
+        
         _isballNotNull = ball != null;
         
         foreach (var desObj in GameObject.FindGameObjectsWithTag("Des"))
@@ -57,22 +56,7 @@ public class GameManeger : MonoBehaviour
         SceneManager.LoadScene(currentScene);
     }
 
-    public void LoadNextScene()
-    {
-        GameData data = SaveSystem.LoadGame();
-        highestLevel = data.level;
-        if (CurrentScene>=highestLevel)
-        {
-            CurrentScene = SceneManager.GetActiveScene().buildIndex+1;
-            SaveSystem.SaveGame(this);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
-        else
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
-        
-    }
+    
 
 
 }

@@ -7,6 +7,8 @@ TagManager:
   - Des
   - Undes
   - Floor
+  - FxTemporaire
+  - dontdes
   layers:
   - Default
   - TransparentFX

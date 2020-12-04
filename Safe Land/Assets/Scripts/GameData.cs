@@ -7,8 +7,8 @@ public class GameData
 {
     public int level;
     
-   public GameData (GameManeger GM)
+   public GameData (sceneManeger GM)
     {
-        level = GM.CurrentScene;
+        level = GM.highestLevel;
     }
 }

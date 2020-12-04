@@ -306,8 +306,6 @@ MonoBehaviour:
   des: []
   undes: []
   ball: {fileID: 681817679}
-  CurrentScene: 0
-  highestLevel: 0
 --- !u!4 &531213963
 Transform:
   m_ObjectHideFlags: 0
@@ -420,7 +418,7 @@ PrefabInstance:
         type: 3}
       propertyPath: GM
       value: 
-      objectReference: {fileID: 531213962}
+      objectReference: {fileID: 681817680}
     - target: {fileID: 5703771992848937640, guid: aa3c035d319f237498f00e676e4769c4,
         type: 3}
       propertyPath: _materials.Array.data[0]
@@ -514,6 +512,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 681817678}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &681817680 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6258589791561532195, guid: aa3c035d319f237498f00e676e4769c4,
+    type: 3}
+  m_PrefabInstance: {fileID: 681817678}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681817679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b23d07d788c8af4c96e87da237f6b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1394419067
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ using UnityEngine;
 public class BallScript : MonoBehaviour
 {
     [SerializeField] private Rigidbody _rigidbody;
-    [SerializeField] private GameManeger GM;
+    [SerializeField] private sceneManeger GM;
     [SerializeField] private GameObject Fireworks;
     [SerializeField] private GameObject FireworksSound;
     private bool isWinning = false;
@@ -23,7 +23,7 @@ public class BallScript : MonoBehaviour
 
         private void Awake()
         {
-            
+            GM = GetComponent<sceneManeger>();
         }
 
         private void FixedUpdate()

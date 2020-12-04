@@ -2,29 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class LoadLeve : MonoBehaviour
 {
-    private GameManeger GM;
-    public int CurrentScene;
- 
-    void Start()
+    public int highrestLevel;
+    void Awake()
     {
-        SceneManager.LoadScene(1);
-       // GameData data = SaveSystem.LoadGame();
-           // CurrentScene = data.level;
-            
-        //    if (CurrentScene != 0)
-      //  {
-     //       SceneManager.LoadScene(CurrentScene);
-    //    }
-     //   else
-    //    {
-    //        SceneManager.LoadScene(1);
-    //    }
-            
-      //      if (CurrentScene == null)
-      //      {
-       // SceneManager.LoadScene(1);
-     //       }
+        GameData data = SaveSystem.LoadGame();
+        highrestLevel = data.level;
+        int CurrentScene = SceneManager.GetActiveScene().buildIndex;
+       
+        if (highrestLevel != CurrentScene)
+        {
+            SceneManager.LoadScene(highrestLevel);
+        }
     }
 }

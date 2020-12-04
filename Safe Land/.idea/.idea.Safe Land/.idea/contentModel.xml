@@ -50,6 +50,7 @@
           <e p="Nails.cs" t="Include" />
           <e p="OpenSettings.cs" t="Include" />
           <e p="SaveSystem.cs" t="Include" />
+          <e p="SceneManeger.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
         </e>
         <e p="SimpleSky" t="Include">

@@ -125,7 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _gameManeger: {fileID: 0}
   _rigidbody: {fileID: 1252370453319023746}
-  power: 250
+  power: 300
   radius: 2
   VFX: {fileID: 1892078723244562, guid: 46876a2780737ec45a19d62f88e5ce56, type: 3}
   SFX: {fileID: 1252370453319023751}
