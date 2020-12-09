@@ -7,10 +7,10 @@ using UnityEngine.SceneManagement;
 public class sceneManeger : MonoBehaviour
 {
     public int CurrentScene;
-    public int highestLevel;
-    
+
     public void LoadNextScene()
     {
-            SceneManager.LoadScene(CurrentScene + 1);
+        CurrentScene = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(CurrentScene + 1);
     }
 }
