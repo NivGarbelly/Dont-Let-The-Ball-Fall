@@ -7,14 +7,15 @@ using UnityEngine;
 public class Nails : MonoBehaviour
 {
     public bool isNailed;
-    [SerializeField] private Rigidbody _rigidbody;
+    [SerializeField] private Rigidbody rigidbody;
     [SerializeField] private GameObject nails;
     
     private void Awake()
     {
+        rigidbody = GetComponent<Rigidbody>();
         if (isNailed==true)
         {
-            _rigidbody.isKinematic = true;
+            rigidbody.isKinematic = true;
             nails.SetActive(true);
         }
         else
@@ -25,7 +26,7 @@ public class Nails : MonoBehaviour
 
     public void Unnailed()
     {
-        _rigidbody.isKinematic = false;
+        rigidbody.isKinematic = false;
         nails.SetActive(false); 
     }
 }

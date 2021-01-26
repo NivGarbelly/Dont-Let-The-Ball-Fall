@@ -1,12 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\NivGa\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\NivGa\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Safe Land.-313693276.00" t="ExcludeRecursive" />
-    <e p="C:\Users\NivGa\Desktop\Snowflake Games\Project in Procsses\Dont-Let-The-Ball-Fall\Safe Land" t="IncludeRecursive">
+    <e p="C:\Users\User\AppData\local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\User\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_Safe Land.360994004.00" t="ExcludeRecursive" />
+    <e p="C:\Users\User\Documents\GitHub\Dont-Let-The-Ball-Fall\Safe Land" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="BayatGames" t="Include">
+          <e p="SaveGameFree" t="Include">
+            <e p="Documentation" t="Include">
+              <e p="Save Game Free Documentation - Plain Text Version.txt" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="Tests" t="Include">
+                <e p="SaveGameTests.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Examples" t="Include">
+              <e p="Auto Save" t="Include">
+                <e p="ExampleMoveObject.cs" t="Include" />
+              </e>
+              <e p="Save Custom" t="Include">
+                <e p="ExampleSaveCustom.cs" t="Include" />
+              </e>
+              <e p="Save Position" t="Include">
+                <e p="ExampleSavePosition.cs" t="Include" />
+              </e>
+              <e p="Save Rotation" t="Include">
+                <e p="ExampleSaveRotation.cs" t="Include" />
+              </e>
+              <e p="Save Scale" t="Include">
+                <e p="ExampleSaveScale.cs" t="Include" />
+              </e>
+              <e p="Save Web" t="Include">
+                <e p="ExampleSaveWeb.cs" t="Include" />
+              </e>
+              <e p="Shared" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="SerializerDropdown.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Plugins" t="Include">
+              <e p="FullSerializer.xml" t="Include" />
+            </e>
+            <e p="Readme.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Encoders" t="Include">
+                <e p="ISaveGameEncoder.cs" t="Include" />
+                <e p="SaveGameSimpleEncoder.cs" t="Include" />
+              </e>
+              <e p="SaveGame.cs" t="Include" />
+              <e p="SaveGameAuto.cs" t="Include" />
+              <e p="SaveGameWeb.cs" t="Include" />
+              <e p="Serializers" t="Include">
+                <e p="ISaveGameSerializer.cs" t="Include" />
+                <e p="SaveGameBinarySerializer.cs" t="Include" />
+                <e p="SaveGameJsonSerializer.cs" t="Include" />
+                <e p="SaveGameXmlSerializer.cs" t="Include" />
+              </e>
+              <e p="Types" t="Include">
+                <e p="Color32Save.cs" t="Include" />
+                <e p="ColorSave.cs" t="Include" />
+                <e p="MeshSave.cs" t="Include" />
+                <e p="QuaternionSave.cs" t="Include" />
+                <e p="Vector2Save.cs" t="Include" />
+                <e p="Vector3Save.cs" t="Include" />
+                <e p="Vector4Save.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="JMO Assets" t="Include">
           <e p="Cartoon FX" t="Include">
             <e p="CartoonFX Free.txt" t="Include" />
@@ -48,7 +113,6 @@
           <e p="Nails.cs" t="Include" />
           <e p="OpenSettings.cs" t="Include" />
           <e p="SceneManeger.cs" t="Include" />
-          <e p="SimpleCameraController.cs" t="Include" />
         </e>
         <e p="SimpleSky" t="Include">
           <e p="Readme.txt" t="Include" />

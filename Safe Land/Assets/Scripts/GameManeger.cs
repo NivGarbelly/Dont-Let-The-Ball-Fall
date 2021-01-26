@@ -15,9 +15,8 @@ public class GameManeger : MonoBehaviour
 
     void Awake()
     {
-        
+        Screen.orientation = ScreenOrientation.Portrait;  
         _isballNotNull = ball != null;
-        
         foreach (var desObj in GameObject.FindGameObjectsWithTag("Des"))
         {
             des.Add(desObj);
